@@ -3,7 +3,7 @@ import { Resend } from 'resend'; */
 const { generateEmailHTML } = require('../../components/email-template.js');
 const { Resend } = require('resend');
 require('dotenv').config();
-
+export const runtime = "nodejs";
 
 
 const resend = new Resend(process.env.SECRET_DATA);
