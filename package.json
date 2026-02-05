@@ -10,7 +10,6 @@
     "queue": "node ./src/app/lib/queue.js"
   },
   "dependencies": {
-    "bull": "^4.16.3",
     "dotenv": "^16.4.5",
     "next": "^16.1.6",
     "next-themes": "^0.4.6",
