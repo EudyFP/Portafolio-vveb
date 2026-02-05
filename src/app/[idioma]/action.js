@@ -17,7 +17,7 @@ export default async function formAction (ActualState, formData) {
     return { success: false, message: 'debes llenar mensaje' };
   } else {
   try {
-    POST([{ nombre, correo, mensaje }]);
+    await POST([{ nombre, correo, mensaje }]);
 /*     await emailQueue.add("send", {
       nombre: nombre,
       correo: correo,
