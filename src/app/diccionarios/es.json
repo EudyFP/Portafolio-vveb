@@ -1,0 +1,38 @@
+{
+    "idioma": {
+        "es": "Español",
+        "en": "Inglés"
+    },
+    "acerca": "Acerca de mi",
+    "descripcion": "Hola, soy Eudy Familia Pérez, un desarrollador web front end graduado del Instituto Técnico de las Américas (ITLA). Aunque soy nuevo en el campo profesional, tengo una sólida base en tecnologías clave como HTML, CSS, JavaScript, React.js y Next.js gracias a mi formación en ITLA. Mi educación me ha dado una comprensión profunda de los principios del diseño web y el desarrollo front end. Estoy muy entusiasmado por comenzar mi carrera y estoy dispuesto a aplicar mis habilidades y conocimientos en proyectos desafiantes.",
+    "proyectos": "Proyectos",
+    "proyectos_desc": {
+        "proyecto1": {
+            "titulo": "RenoVatech",
+            "descripcion": "RenoVatech es un proyecto el cual fue parte de mi tesis en ITLA. Es una aplicación web que permite a los usuarios ver eventos sobre recliclaje de dispositivos electronicos, alistarse y donar dichos objetos para reclicar. La aplicación también permite a los usuarios registrarse y guardar información en su perfil. La aplicación fue desarrollada con React.js y localStorage",
+            "link": "https://repositorio-wap5.onrender.com/"
+        },
+        "proyecto2": {
+            "titulo": "Airline",
+            "descripcion": "Una pagina simple que hice el año pasado para practicar mis habilidades en HTML, CSS y JavaScript, el formulario fue creado con JQuery",
+            "link": "https://eudyfp.github.io/"
+        }
+    },
+    "herramientas_proyectos": "Herramientas utilizadas",
+    "contacto": "Contáctame",
+    "form": {
+        "name_label": "Nombre",
+        "name_placeholder": "Ingresa tu nombre completo",
+        "email_label": "Correo electrónico",
+        "email_placeholder": "Ingresa tu correo electrónico",
+        "textarea_label": "Mensaje",
+        "textarea_placeholder": "Ingresa tu mensaje",
+        "submit": "Enviar",
+        "submiting": "Enviando...",
+        "success": "Mensaje enviado exitosamente",
+        "error": "Por favor llena los campos de nombre, correo y mensaje",
+        "error_name": "Por favor ingresa un nombre",
+        "error_email": "Por favor ingresa un correo electrónico válido",
+        "error_message": "Por favor ingresa un mensaje"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "idioma": {
+        "es": "Spanish",
+        "en": "English"
+    },
+    "acerca": "About me",
+    "descripcion": "Hi, I'm Eudy Familia Pérez, a front-end web developer graduated from the Instituto Técnico de las Américas (ITLA). Although I'm new to the professional field, I have a solid foundation in key technologies like HTML, CSS, JavaScript, React.js and Next.js thanks to my education at ITLA. My studies have given me a deep understanding of web design principles and front-end development. I'm very excited to start my career and eager to apply my skills and knowledge to challenging projects.",
+    "proyectos": "Projects",
+    "proyectos_desc": {
+        "proyecto1": {
+            "titulo": "RenoVatech",
+            "descripcion": "RenoVatech was a project that was part of my thesis at ITLA. It's a web application that allows users to view events related to electronic device recycling, sign up for these events, and donate such items for recycling. The application also enables users to register and save information in their profiles. It was developed using React.js and localStorage.",
+            "link": "https://repositorio-wap5.onrender.com/"
+        },
+        "proyecto2": {
+            "titulo": "Airline",
+            "descripcion": "A simple page I made the past to practice my skills in HTML, CSS, and JavaScript. The form was created using jQuery.",
+            "link": "https://eudyfp.github.io/"
+        }
+    },
+    "herramientas_proyectos": "Tools used",
+    "contacto": "Contact me",
+    "form": {
+        "name_label": "Name",
+        "name_placeholder": "Enter your full name",
+        "email_label": "Email address",
+        "email_placeholder": "Enter your email address",
+        "textarea_label": "Message",
+        "textarea_placeholder": "Enter your message",
+        "submit": "Send",
+        "submiting": "Sending...",
+        "success": "Message sent successfully",
+        "error": "Please fill the name, email and message fields",
+        "error_name": "Please enter a name",
+        "error_email": "Please enter a valid email address",
+        "error_message": "Please enter a message"
+    }
+}

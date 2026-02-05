@@ -1,0 +1,27 @@
+{
+  "name": "portafolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "queue": "node ./src/app/lib/queue.js"
+  },
+  "dependencies": {
+    "bull": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "next": "^15.0.0-canary.100",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0-rc-06d0b89e-20240801",
+    "react-dom": "^19.0.0-rc-06d0b89e-20240801",
+    "react-toastify": "^10.0.5",
+    "redis": "^4.7.0",
+    "resend": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0-canary.100"
+  }
+}
