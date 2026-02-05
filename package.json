@@ -12,16 +12,16 @@
   "dependencies": {
     "bull": "^4.16.3",
     "dotenv": "^16.4.5",
-    "next": "^15.0.0-canary.100",
+    "next": "^16.1.6",
     "next-themes": "^0.4.6",
-    "react": "^19.0.0-rc-06d0b89e-20240801",
-    "react-dom": "^19.0.0-rc-06d0b89e-20240801",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-toastify": "^10.0.5",
     "redis": "^4.7.0",
     "resend": "^3.5.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-next": "^15.0.0-canary.100"
+    "eslint-config-next": "^16.1.6"
   }
 }
