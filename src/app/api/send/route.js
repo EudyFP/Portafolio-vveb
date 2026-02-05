@@ -3,12 +3,11 @@ import { Resend } from 'resend'; */
 const { generateEmailHTML } = require('../../components/email-template.js');
 const { Resend } = require('resend');
 require('dotenv').config();
-export const runtime = "nodejs";
 
 
 const resend = new Resend(process.env.SECRET_DATA);
 
-async function POST(arrayData) {
+export async function POST(arrayData) {
   try {
     console.log('Array Data Received: ' + arrayData);
     const { data, error } = await resend.emails.send({
@@ -27,5 +26,3 @@ async function POST(arrayData) {
     return Response.json({ error }, { status: 500 });
   }
 }
-
-module.exports = { POST };
