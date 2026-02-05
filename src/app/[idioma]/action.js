@@ -1,5 +1,5 @@
 "use server"
-
+import { POST } from "@/app/api/send/route";
 /* import { client } from "@/app/lib/db"; */
 
 export default async function formAction (ActualState, formData) {
@@ -17,11 +17,12 @@ export default async function formAction (ActualState, formData) {
     return { success: false, message: 'debes llenar mensaje' };
   } else {
   try {
-    await emailQueue.add("send", {
+    POST([{ nombre, correo, mensaje }]);
+/*     await emailQueue.add("send", {
       nombre: nombre,
       correo: correo,
       mensaje: mensaje
-    }, {removeOnComplete: true});
+    }, {removeOnComplete: true}); */
     return { success: true, message: 'Correo encolado exitosamente' };
   } catch (error) {
     console.error('Error al encolar el correo:', error);
