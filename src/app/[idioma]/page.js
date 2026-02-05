@@ -5,8 +5,9 @@ import Link from "next/link";
 import Form from "./form";
 import ThemedButtons from "../components/ThemedButtons";
 
-export default async function Home({ params: {idioma} }) {
-  const diccionario = await import(`@/app/diccionarios/${idioma}.json`).then(m => m.default);
+export default async function Home({ params }) {
+  const valorIdioma = await params;
+  const diccionario = await import(`@/app/diccionarios/${valorIdioma.idioma}.json`).then(m => m.default);
   console.log(diccionario);
 /* console.log("Hola") */
   return (<>
