@@ -22,7 +22,7 @@ export default async function Home({ params }) {
       <Image src="/assets/icons8-linkedin.svg" alt="LinkedIn logo" title="LinkedIn" width={50} height={50} priority/>
       </Link>
         </section>
-      <ThemedButtons />
+      <ThemedButtons diccionario={diccionario}/>
       </section>
     <main id={styles.main}>
       <section className={styles.section}>

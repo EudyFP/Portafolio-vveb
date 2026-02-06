@@ -3,6 +3,8 @@
         "es": "Spanish",
         "en": "English"
     },
+    "modo_c": "Light mode",
+    "modo_o": "Dark mode",
     "acerca": "About me",
     "descripcion": "Hi, I'm Eudy Familia Pérez, a front-end web developer graduated from the Instituto Técnico de las Américas (ITLA). Although I'm new to the professional field, I have a solid foundation in key technologies like HTML, CSS, JavaScript, React.js and Next.js thanks to my education at ITLA. My studies have given me a deep understanding of web design principles and front-end development. I'm very excited to start my career and eager to apply my skills and knowledge to challenging projects.",
     "proyectos": "Projects",
