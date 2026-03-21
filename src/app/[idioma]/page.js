@@ -83,7 +83,7 @@ export default async function Home({ params }) {
         <p>{diccionario.derechos_reservados}</p>
         </section>
         <section className={styles.footer_children}>
-        <p>{diccionario.desarrollada_con} CSS · React.Js · Next.js · Resend</p>
+        <p>{diccionario.desarrollada_con} CSS · React.js · Next.js · Resend</p>
         <p>{diccionario.hosteada} Vercel</p>
         </section>
       </footer>
