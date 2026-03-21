@@ -36,5 +36,9 @@
         "error_name": "Please enter a name",
         "error_email": "Please enter a valid email address",
         "error_message": "Please enter a message"
-    }
+    },
+    "desarrollador": "Frontend Developer",
+    "derechos_reservados": "© 2026 Eudy Familia Perez. All rights reserved",
+    "desarrollada_con": "Developed with",
+    "hosteada": "Hosted on"
 }

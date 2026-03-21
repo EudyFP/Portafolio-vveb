@@ -76,6 +76,17 @@ export default async function Home({ params }) {
           <Form diccionario={diccionario}/>
       </section>
     </main>
+      <footer className={styles.section_footer}>
+        <section className={`${styles.footer_children} ${styles.footer_left}`}>
+        <p>Eudy Familia Pérez</p>
+        <p>{diccionario.desarrollador}</p>
+        <p>{diccionario.derechos_reservados}</p>
+        </section>
+        <section className={styles.footer_children}>
+        <p>{diccionario.desarrollada_con} CSS · React.Js · Next.js · Resend</p>
+        <p>{diccionario.hosteada} Vercel</p>
+        </section>
+      </footer>
     </>
   );
 }

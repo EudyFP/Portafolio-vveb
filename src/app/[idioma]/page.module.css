@@ -67,6 +67,7 @@
   
 }
 
+
 .section_idiomas {
   display: flex;
   align-items: center;
@@ -203,7 +204,7 @@ border-radius: 15px;
 
 .textarea{
   resize: none;
-  height: 5rem;
+  height: 10rem;
   background-color: var(--input-bg);
   border: 2px solid var(--input-border);
   color: var(--input-text);
@@ -246,6 +247,29 @@ border-radius: 15px;
   background-color: var(--btn-bg-hover);
 }
 
+.section_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--background);
+  border-top: 2px solid var(--section-border);
+  transition: background-color 0.3s, border-color 0.3s;
+  height: 10rem;
+
+}
+
+.footer_children{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer_left {
+  display: block;
+}
+
 @media (min-width: 360px) {
   #main {
     > .section > .about_me{
@@ -274,6 +298,27 @@ border-radius: 15px;
   }
 }
 
+@media (max-width: 778px) {
+  .form_divisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .form_subSection {
+    width: 100%;
+}
+}
+@media (max-width: 820px) {
+  .section_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer_children{
+    align-items: flex-start;
+  }
+}
 @media (min-width: 952px) {
   #main {
 
